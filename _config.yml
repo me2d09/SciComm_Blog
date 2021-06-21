@@ -4,7 +4,7 @@ title:                  "Physics for everyone!"
 email:                  "johanna.jochum@frm2.tum.de"
 description:            "You don’t need to be a genius to learn about physics! Sometimes you just need someone to help you navigate through all the jargon."
 
-baseurl:                "https://jjochum87.github.io"
+baseurl:                "/SciComm_Blog"
 url:                    "/SciComm_Blog"
 
 # Build settings
