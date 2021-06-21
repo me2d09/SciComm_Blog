@@ -1,4 +1,6 @@
-
+---
+title: CSS stylesheet
+---
 * {
     margin: 0;
     padding: 0;
@@ -1030,7 +1032,7 @@ div#disqus_thread {
     margin-top: -12px;
 }
 .blog-footer {
-    background: url("/assets/images/footer-image.jpg");
+    background: url("{{ site.baseurl }}/assets/images/footer-image.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
