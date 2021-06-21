@@ -1,11 +1,11 @@
 # Welcome to Jekyll!
 
-title:                  "Appix Jekyll Template"
-email:                  "themeix@gmail.com"
-description:            "Themeix is a awesome company for selling jekyll,ghost,html, blogging and wordpress websites."
+title:                  "Physics for everyone!"
+email:                  "johanna.jochum@frm2.tum.de"
+description:            "You don’t need to be a genius to learn about physics! Sometimes you just need someone to help you navigate through all the jargon."
 
-baseurl:                "http://appixjk.themeix.com"
-url:                    "http://appixjk.themeix.com"
+baseurl:                "https://jjochum87.github.io"
+url:                    "/SciComm_Blog"
 
 # Build settings
 markdown:               kramdown
@@ -20,11 +20,6 @@ mailchimp_link:         "//themeix.us16.list-manage.com/subscribe?u=4b7aa1c5c5ac
 
 # social links
 
-twitter_username:       "themeix_ltd"
-facebook_username:      "themeix"
-google_plus_username:   "themeix"
-instragram_username:    "themeix"
-linkedin_username:      "themeix"
-pinterest_username:     "themeix"
-dribble_username:       "themeix"
-github_username:        "themeix"
+twitter_username:       "jkj_2309"
+linkedin_username:      "johanna-k-jochum-b2910251"
+github_username:        "jjochum87"
