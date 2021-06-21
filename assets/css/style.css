@@ -1196,7 +1196,7 @@ ul.author-link li a {
    ========================================== */
 
 .contact-us-area {
-    background-image: url('/assets/images/contact-image/bg.jpg');
+    background-image: url('{{ site.baseurl }}/assets/images/contact-image/bg.jpg');
     background-size: cover;
     background-position: center center;
 }
