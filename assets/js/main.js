@@ -147,22 +147,6 @@ var themeApp = {
         });
     },
 
- 
-	disqus_comments: function() {
-
-            var d = document, s = d.createElement('script');
-
-            s.src = 'https://themeix-com-3.disqus.com/embed.js';
-
-            s.setAttribute('data-timestamp', +new Date());
-
-            if( $("#disqus_thread").length > 0 ) {
-
-                (d.head || d.body).appendChild(s);
-            }
-      
-    },
-
 	
      sticky: function() {
       var windows = $(window);
@@ -188,7 +172,6 @@ var themeApp = {
         themeApp.particles();
         themeApp.backtotop();
         themeApp.video_responsive();
-        themeApp.disqus_comments()
     }
 
 }

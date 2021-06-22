@@ -1,7 +1,7 @@
 ---
 title: CSS stylesheet
 ---
-* {
+:not(ol) {
     margin: 0;
     padding: 0;
     outline: none;
@@ -23,7 +23,6 @@ body {
     background: #b3d4fc;
     text-shadow: none;
 }
-ol,
 ul {
     list-style: none;
 }
@@ -743,9 +742,17 @@ ul.blog-author-name li i {
     margin-right: 10px;
     color:#a5a5a5;
 }
-.blog-details p {
+.blog-details {
     color: #3a4e63;
     font-size: 16px;
+}
+.blog-details p {
+    margin-bottom: 4px;
+    line-height: 30px;
+}
+.blog-details h3 {
+    margin-top: 8px;
+    margin-bottom: 4px;
     line-height: 30px;
 }
 .themeix-second-button .btn-read {
@@ -924,11 +931,6 @@ span.page-number {
     width: auto;
     float: none;
     color: #a7a7a7;
-}
-
-div#disqus_thread {
-    background: #f9f9f9;
-    padding: 30px;
 }
 .footer-area {
     background: #f9f9f9;

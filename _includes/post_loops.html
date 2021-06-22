@@ -7,9 +7,9 @@
                 
                 <div class="blog-image">
                   {% if post.post_image %}
-                      <a href="{{ post.url }}"><img src="{{ site.baseurl }}{{ post.post_image }}" alt="{{ post.title }}"></a>
+                      <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}{{ post.post_image }}" alt="{{ post.title }}"></a>
                       {% else %}
-                      <a href="{{ post.url }}"><img src="{{ site.baseurl }}/assets/images/default.jpg" alt="{{ post.title }}"></a>
+                      <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/assets/images/default.jpg" alt="{{ post.title }}"></a>
                     {% endif %}
                 </div>
                 
@@ -23,7 +23,7 @@
                 <p id="post-meta">{{ category_content }}</p>
 
                 <div class="blog-details">
-                    <h3 class="blog-post-title"><a href="{{ post.url}} ">{{ post.title }}</a></h3>
+                    <h3 class="blog-post-title"><a href="{{ site.baseurl }}{{ post.url}} ">{{ post.title }}</a></h3>
                     <ul class="blog-author-name">
                         <li><i class="fa fa-user" aria-hidden="true"></i><a href="{{post.author_web}}">{{ post.author | limit: 1 }}</a></li>
                         <li><i class="fa fa-folder-open"></i><a href="/pages/tagpage/">{{ post.category | limit: 1 }}</a></li>
@@ -36,7 +36,7 @@
                     </div>
                     <div class="read-more">
                         <div class="themeix-button-group">
-                            <a href="{{ post.url }}" class="themeix-btn themeix-danger">read more</a>
+                            <a href="{{ site.baseurl }}{{ post.url }}" class="themeix-btn themeix-danger">read more</a>
                         </div>
                     </div>
                     <div class="share-icon">
