@@ -403,7 +403,9 @@ canvas {
     position: absolute;
     right: 0;
     text-align: center;
-    top: 40%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     z-index: 1;
 }
 .slider-fixed-text p {
@@ -412,6 +414,10 @@ canvas {
     margin: 0 auto;
     color: #fff;
     font-weight: 300;
+}
+.slider-fixed-text span {
+    color: #c8aa80;
+    font-weight: 600;
 }
 .slider-fixed-text h1 {
     text-transform: capitalize;
