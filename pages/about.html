@@ -2,7 +2,7 @@
 layout: default
 title: "About"
 primaryNav: true
-sub_title: "About Our Team And Company"
+sub_title: "About Me"
 slider_image: "/assets/images/slider.jpg"
 ---
 
@@ -11,48 +11,84 @@ slider_image: "/assets/images/slider.jpg"
 <!-- about section -->
 <section class="about-section pt-5" id="about">
     <div class="container">
+        
         <div class="row">
-            <div class="col-md-12">
-                <div class="themeix-section-heading-title">
-                    <h2 class="head-titl">About Appix</h2>
-                    <p class="light-300 color-change">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that</p>
+            <div class="col-md-6">
+                <div class="about-appix-left-img">
+                    <img src="{{ site.baseurl }}/assets/images/about/1.jpg" alt="about" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="about-appix-right-content">
+                    <h2 class="themeix-title-h1">Johanna K. Jochum</h2>
+                    <p class="para-mb">That's me, desperate but happy inside!</p>
+                    <p class="para-mb">Well yeah, you know we have two of them. I hope you don't mind but George asked if he could take me home. Yeah, I'll keep that in mind. Well gee, I don't know. I still don't understand, how am I supposed to go to the dance with her, if she's already going to the dance with you.</p>
+                    <p class="para-mb">Get your meat hooks off of me. Of course, the Enchantment Under The Sea Dance they're supposed to go to this, that's where they kiss for the first time. Lorenzo, where're you keys? Mother, with Marty's parents out of town, don't you think he oughta spend the night, after all, Dad almost killed him with the car. I'm gonna be at the dance.</p>
+                    <div class="themeix-button-group">
+                        <a href="#" class="themeix-btn themeix-danger">CV</a>
+                        <a href="#" class="themeix-btn bg-change themeix-info">My instrument</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6">
-                        <div class="about-appix-left-img">
-                            <img src="/assets/images/about/1.jpg" alt="about" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="about-appix-right-content">
-                            <h2 class="themeix-title-h1">Applix is the next generation productivity app</h2>
-                            <p class="para-mb">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-                            <div class="themeix-button-group">
-                                <a href="#" class="themeix-btn themeix-danger">Download Now</a>
-                                <a href="#" class="themeix-btn bg-change themeix-info">Download Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="row py-5"> 
-		            <div class="col-md-6">
-		                <div class="about-appix-right-content">
-		                    <h2 class="themeix-title-h1">Get your productivity score in appix app</h2>
-		                    <p class="para-mb">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-		                    <div class="themeix-button-group">
-		                        <a href="#" class="themeix-btn themeix-danger">Download Now</a>
-		                        <a href="#" class="themeix-btn bg-change themeix-info">Download Now</a>
-		                    </div>
-		                </div>
-		            </div>
-		            <div class="col-md-6">
-		                <div class="about-appix-left-img">
-		                    <img src="/assets/images/about/2.jpg" alt="about" class="img-responsive">
-		                </div>
-		            </div>
-                  </div>
-               </div>
+        <div class="row pt-5">
+            <div class="col-md-4">
+                    <h2 class="themeix-title-h1">Do you have idea for a blogpost?</h2>
+                    <p class="light-300 color-change">
+                        Fill this form and I will try to write it.                        
+                    </p>
             </div>
+            <div class="col-md-8">
+                <form>
+                    <div class="form-group row">
+                      <label for="url" class="col-4 col-form-label">Paper link</label> 
+                      <div class="col-8">
+                        <div class="input-group">
+                          <div class="input-group-addon">
+                            <i class="fa fa-link"></i>
+                          </div> 
+                          <input id="url" name="url" type="text" aria-describedby="urlHelpBlock" required="required" class="form-control">
+                        </div> 
+                        <span id="urlHelpBlock" class="form-text text-muted">The URL of the paper, where I can find it.</span>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="comment" class="col-4 col-form-label">Comments</label> 
+                      <div class="col-8">
+                        <textarea id="comment" name="comment" cols="40" rows="3" aria-describedby="commentHelpBlock" class="form-control"></textarea> 
+                        <span id="commentHelpBlock" class="form-text text-muted">What yout think it is about, what should I write about...</span>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="name" class="col-4 col-form-label">Your name</label> 
+                      <div class="col-8">
+                        <div class="input-group">
+                          <div class="input-group-addon">
+                            <i class="fa fa-address-book-o"></i>
+                          </div> 
+                          <input id="name" name="name" type="text" aria-describedby="nameHelpBlock" class="form-control">
+                        </div> 
+                        <span id="nameHelpBlock" class="form-text text-muted">Just to name you in the blogpost. You can askip this field.</span>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="email" class="col-4 col-form-label">E-mail</label> 
+                      <div class="col-8">
+                        <div class="input-group">
+                          <div class="input-group-addon">
+                            <i class="fa fa-envelope-o"></i>
+                          </div> 
+                          <input id="email" name="email" type="text" aria-describedby="emailHelpBlock" class="form-control">
+                        </div> 
+                        <span id="emailHelpBlock" class="form-text text-muted">In case I want to ask you some information, not obligatory.</span>
+                      </div>
+                    </div> 
+                    <div class="form-group row">
+                      <div class="offset-4 col-8">
+                        <button name="submit" type="submit" class="btn btn-primary">Submit</button>
+                      </div>
+                    </div>
+                  </form>
+            </div>
+        </div>
    </section>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Yu-Shiba-Rusinov bands"
-category: "posts"
+category: "blog"
 post_image: "/assets/images/bands.png"
 author: Johanna Jochum
 tags: [sciencemag, quantum computing]

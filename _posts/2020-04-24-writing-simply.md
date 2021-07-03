@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Writing simply…"
-category: "posts"
+category: "blog"
 author: Johanna Jochum
 tags: 'instruments'
 post_image: "/assets/images/reseda100.png"
