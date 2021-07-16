@@ -1,11 +1,11 @@
 # Welcome to Jekyll!
 
 title:                  "Physics for everyone!"
-email:                  "johanna.jochum@frm2.tum.de"
+email:                  "johanna.k.jochum@gmail.com"
 description:            "You don’t need to be a genius to learn about physics! Sometimes you just need someone to help you navigate through all the jargon."
 
-baseurl:                "/SciComm_Blog"
-url:                    "/SciComm_Blog"
+baseurl:                "/"
+url:                    "/"
 
 # Build settings
 markdown:               kramdown
