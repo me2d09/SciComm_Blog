@@ -9,6 +9,7 @@ url:                    "/"
 
 # Build settings
 markdown:               kramdown
+future:                 false
 theme:                  minima
 plugins:
   - jekyll-feed
@@ -23,3 +24,4 @@ mailchimp_link:         "//themeix.us16.list-manage.com/subscribe?u=4b7aa1c5c5ac
 twitter_username:       "jkj_2309"
 linkedin_username:      "johanna-k-jochum-b2910251"
 github_username:        "jjochum87"
+
