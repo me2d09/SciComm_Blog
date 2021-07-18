@@ -9,7 +9,7 @@ url:                    "/"
 
 # Build settings
 markdown:               kramdown
-future:                 true
+future:                 false
 theme:                  minima
 plugins:
   - jekyll-feed
