@@ -7,4 +7,4 @@ tags: 'instruments'
 post_image: "/assets/images/reseda100.png"
 ---
 
-As promised last week... I am trying how it works
+As promised last week... I am trying how it works and it works good.
