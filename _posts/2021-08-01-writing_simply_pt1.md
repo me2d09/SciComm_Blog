@@ -4,7 +4,7 @@ title:  "Writing simply… (pt. 1)"
 category: "blog"
 author: Johanna Jochum
 tags: 'instruments'
-post_image: "/assets/images/reseda100.png"
+post_image: "/assets/images/reseda1000.png"
 ---
 I have recently tried to describe the instrument I work at using the 1000 most common words in the English language (using this [editor](https://splasho.com/upgoer5/)) and I learned the following things:
 Explaining something complicated using simple words is difficult but rewarding.
